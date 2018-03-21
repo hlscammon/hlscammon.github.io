@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="../CSS/Stylesheet.css">
+        <style type="text/css">
+            section#main {
+                display: grid;
+                grid-template-columns: 1fr ;
+                grid-template-rows: 1fr 4fr 1fr ;
+            }
+            header, section, footer, p, div, ul {
+/*                border: 2px solid red ;*/
+            }
+
+
+            nav {
+                display: grid;
+                grid-template-columns: 1fr 1fr ;
+                /*                grid-template-rows: 80% 20%;*/
+
+
+            }
+            Li {
+                color: white ;
+
+            }
+            .logo {
+                width: 150px ;
+                height: 106px ;
+                background-image: url(../Img/logo.svg) ;
+                background-repeat: no-repeat ;
+                margin-left: 60px ;
+                margin-top: 20px ;
+                grid-column: 1 ;
+            }
+            .logo:hover {
+                opacity: 0.5 ;
+            }
+
+            .navbar {
+                text-align: right ;
+                padding-right: 60px ;
+                margin-top: 40px ;
+            }
+
+            .navbar ul li, .navbar ul li:visted,  {
+                border-bottom: 4px solid blue;
+                text-transform: uppercase;
+                color: white ; 
+            }
+            .aboutnav {
+                color: white ;
+            }
+            .lessonsnav {
+                color: white ;
+            }
+            .rockrightnav {
+                color: white ;
+            }
+
+            @media only screen and (max-width: 1025px){
+                .navbar ul li {
+                    text-align: left ;
+                    display: block ;
+                }
+                .navbar ul {
+                    margin-top: 2px ;
+                }
+                .logo {
+                    background-image: url(../Img/logo2.svg);
+                    margin-top: 60px; 
+                    padding-right: 40px ;
+
+                }
+            }
+
+            @media only screen and (max-width: 640px){
+                nav {
+                    display: grid ;
+                    grid-template-rows: 80% 20% ;
+                    grid-template-columns: 20% 80% ;
+                }
+                .narbar ul li {
+/*                    grid-row-start: 2 ;*/
+                    /*
+                    display: flex ;
+                    align-items: center;
+                    */
+
+                }
+                .logo {
+                    background-image: url(../Img/logo3.svg);
+                    margin-top: 50px; 
+                    padding-right: 40px ;
+
+                }
+            }
+
+            section{
+
+            }
+
+            footer {
+
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+
+        <section id="main">
+            <header>
+                <nav>
+                    <div class="indexlogo">
+                        <a href="../index.html">
+                            <div class="logo"></div> 
+                        </a>
+                    </div>
+                    <div class="navbar"> 
+                        <ul>
+                            <li><a href="lessons.html" class="lessonsnav">LESSONS</a></li>
+
+                            <li><a href="rockright_academy.html" class="rockrightnav">ROCKRIGHT ACADEMY</a></li> 
+                            <li><a href="about.html" class="aboutnav">ABOUT</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <section></section>
+            <footer></footer>
+        </section>
+    </body>
+</html>
