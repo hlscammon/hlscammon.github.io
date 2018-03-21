@@ -38,16 +38,17 @@ nav ul li:active {
     background-color: rgb(210, 63, 42) ; 
 }
 .lessonsnav {
-    margin-right: 40px ;
+/*    margin-right: 0px ;*/
     text-decoration: none ;
 }
 .rockrightnav {
-    margin-left: 0px ;
+/*    margin-left: 0px ;*/
     text-decoration: none ;
 }
 .aboutnav {
-    margin-left: 40px ;
+/*    margin-left: 0px ;*/
     text-decoration: none ;
+    
 }
 nav ul {
 /*    padding-left: 924px;*/
