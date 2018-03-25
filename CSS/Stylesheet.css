@@ -340,6 +340,19 @@ p {
     margin-left: 915px ;
 
 }
+
+@media only screen and (max-width: 1025px) {
+    .gallerybutton {
+        margin-left: 100px ;
+        padding: 24px 75px 24px 75px ;
+        margin-top: 1090px ;
+    }
+    .emailgary2 {
+        margin-top: -15px ;
+        margin-bottom: 100px ;
+    }
+}
+
 .gallerybutton:hover {
     background-color: #6C7682 ;
 }
@@ -359,6 +372,14 @@ p {
 .gallerybutton2:hover {
     background-color: #6C7682 ;
 }
+@media only screen and (max-width: 1025px){
+    .gallerybutton2 {
+        margin-left: 0px ;
+        padding: 24px 75px 24px 75px ;
+        margin-top: 980px ;
+        
+    }
+}
 .gallerybutton3 {
     text-decoration: none ;
     font-size: 18px ;
@@ -374,6 +395,7 @@ p {
 .gallerybutton3:hover {
     background-color: #6C7682 ;
 }
+
 .link {
     text-decoration: none ;
     color: #D23F2A ;
@@ -499,6 +521,12 @@ footer {
 }
 .body {
     margin-left: 100px ;
+}
+@media only screen and (max-width: 1025px){
+    .lessons, .lessons2 {
+        display: none ;
+    }
+
 }
 /*slideshow css*/
 #slides {
