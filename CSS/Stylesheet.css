@@ -226,19 +226,40 @@ h6 {
     margin-top: 0px ;
 }
 #mainheader {
+    grid-column: 1fr ;
     padding-top: 15px ;
-    display: block;
+/*    display: block;*/
     margin-left: auto;
     margin-right: auto ; 
 
 /*    grid-column: 1fr ;*/
 }
 #mainparagraph {
+    grid-column: 1fr ;
+    font-size: 100% ;
     width: 55em ;
-    display: block;
+/*    display: block;*/
     margin-left: auto;
     margin-right: auto ;
     line-height: 22px ;
+}
+@media only screen and (max-width: 1025px){
+    #mainparagraph {
+        width: 50em ;
+    }
+}
+@media only screen and (max-width: 840px) {
+    #mainparagraph {
+        width: 40em ;
+    }
+}
+@media only screen and (max-width: 640px) {
+    #mainparagraph {
+        width: 20em ;
+    }
+    #mainheader {
+        width: 12em ;
+    }
 }
 #plugbar {
     width: 100% ;
