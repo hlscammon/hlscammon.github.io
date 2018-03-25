@@ -17,7 +17,6 @@
                 grid-template-columns: 1fr 1fr ;
                 /*                grid-template-rows: 80% 20%;*/
 
-
             }
             Li {
                 color: white ;
@@ -56,6 +55,16 @@
             .rockrightnav {
                 color: white ;
             }
+            footer {
+                display: grid ;
+                grid-template-columns: 1fr 1fr ;
+                grid-template-rows: 1fr ;
+
+            }
+            .contact {
+                margin-top: 50px ;
+                
+            }
 
             @media only screen and (max-width: 1025px){
                 .navbar ul li {
@@ -93,13 +102,20 @@
                     padding-right: 40px ;
 
                 }
+                footer {
+                    display: grid;
+                    grid-template-columns: 1fr ;
+                }
+                #footerlogo {
+                    margin-left: 50px ;
+                    margin-bottom: 0px ;
+                }
+                #contact {
+/*                    margin-top: 20px ;*/
+                }
             }
 
             section{
-
-            }
-
-            footer {
 
             }
 
@@ -128,7 +144,23 @@
                 </nav>
             </header>
             <section></section>
-            <footer></footer>
+            <footer>
+            <img id="footerlogo" src="../Img/footer%20logo.svg">
+            <div class="contact">
+                <div class="contact1">
+                    <h5>CONTACT</h5>
+                    <p>Gary Leighton
+                        (603)591-3689
+                        raytone@comcast.net</p>
+                </div>
+                <div class="contact2">
+                    <h5>LOCATION</h5>
+                    <p>Ralphs House of Tone 
+                        99 Oak St
+                        Dover, NH 03820</p>
+                </div>
+            </div>
+        </footer>
         </section>
     </body>
 </html>
