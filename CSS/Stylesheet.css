@@ -192,6 +192,7 @@ h1 {
     width: 21em ;
     text-align: center ;
     line-height: 38px ;
+   
 }
 h2 {
     font-family: 'Archivo Black', sans-serif ;
@@ -229,6 +230,8 @@ h6 {
     display: block;
     margin-left: auto;
     margin-right: auto ; 
+
+/*    grid-column: 1fr ;*/
 }
 #mainparagraph {
     width: 55em ;
@@ -268,6 +271,17 @@ p {
     height: 60px ;
     text-align: center ;
     line-height: 60px ; 
+}
+@media only screen and (max-width: 1025px) {
+   
+    .calltoactionbar {
+        height: 150px ;
+    }
+    .emailgary {
+        margin-left: -125 ;
+        margin-top: 40px ;
+    }
+    
 }
 .emailgary:active {
     background-color: #B74232 ; 
@@ -367,6 +381,24 @@ p {
     position: absolute ;
 
 }
+@media only screen and (max-width: 1025px) {
+    #plugdark {
+        display: none ;
+    }
+    #plugbar {
+        display: none ;
+    }
+    
+}
+@media only screen and (max-width: 640px){
+    #plugdark {
+        display: none ;
+    }
+    #plugbar {
+        display: none ;
+    }
+
+}
 footer {
     background-color: #000 ;
     margin-top: 0px ;
@@ -428,8 +460,6 @@ footer {
         margin-left: 50px ;
         margin-bottom: 0px ;
     }
-
-
 }
 .lessons {
     position: absolute ;
