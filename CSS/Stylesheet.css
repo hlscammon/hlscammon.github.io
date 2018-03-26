@@ -180,10 +180,27 @@ Li {
     position: absolute;
     padding-top: 275px ;
     padding-left: 650px ;
-    z-index: 1 ;        
+    z-index: 1 ; 
 }
 #playbutton path:hover {
     fill: #6C7682 ;
+}
+@media only screen and (max-width: 1025px){
+    #playbutton{
+        padding-left: 400px ;
+    }
+}
+@media only screen and (max-width: 940px){
+    #playbutton{
+        padding-left: 250px ;
+        transform: scale(0.8)
+    }
+}
+@media only screen and (max-width: 640px){
+    #playbutton{
+        padding-left: 150px ;
+        transform: scale(0.5)
+    }
 }
 h1 {
     font-family: 'Archivo Black', sans-serif ; 
@@ -192,7 +209,7 @@ h1 {
     width: 21em ;
     text-align: center ;
     line-height: 38px ;
-   
+
 }
 h2 {
     font-family: 'Archivo Black', sans-serif ;
@@ -228,17 +245,17 @@ h6 {
 #mainheader {
     grid-column: 1fr ;
     padding-top: 15px ;
-/*    display: block;*/
+    /*    display: block;*/
     margin-left: auto;
     margin-right: auto ; 
 
-/*    grid-column: 1fr ;*/
+    /*    grid-column: 1fr ;*/
 }
 #mainparagraph {
     grid-column: 1fr ;
     font-size: 100% ;
     width: 55em ;
-/*    display: block;*/
+    /*    display: block;*/
     margin-left: auto;
     margin-right: auto ;
     line-height: 22px ;
@@ -299,7 +316,7 @@ p {
     line-height: 60px ; 
 }
 @media only screen and (max-width: 1025px) {
-   
+
     .calltoactionbar {
         height: 150px ;
     }
@@ -307,7 +324,7 @@ p {
         margin-left: -125 ;
         margin-top: 40px ;
     }
-    
+
 }
 .emailgary:active {
     background-color: #B74232 ; 
@@ -452,7 +469,7 @@ p {
     #plugbar {
         display: none ;
     }
-    
+
 }
 @media only screen and (max-width: 640px){
     #plugdark {
@@ -539,6 +556,31 @@ footer {
     position: absolute ;
     margin-left: 765px ;
     margin-top: 100px ;
+}
+@media only screen and (max-width: 1025px){
+    .garyphotos {
+        margin-left: 465px ;
+        margin-top: 200px ;
+        width: 473px ;
+        height: 327px ; 
+    }
+}
+@media only screen and (max-width: 940px) {
+    .garyphotos {
+        width: 373px ;
+        height: 227px ;
+    }
+}
+@media only screen and (max-width: 640px){
+    .garyphotos {
+        width: 373px ;
+        height: 227px ;
+        margin-left: 60px ;
+        margin-top: 790px ;
+    }
+    #linksandbutton {
+        margin-top: 240px ; 
+    }
 }
 .body {
     margin-left: 100px ;
