@@ -3,6 +3,7 @@ body {
 }
 section {
     overflow: hidden ;
+
 }
 header {
     /*
@@ -248,6 +249,8 @@ h6 {
     /*    display: block;*/
     margin-left: auto;
     margin-right: auto ; 
+    color: white ;
+    width 100% ;
 
     /*    grid-column: 1fr ;*/
 }
@@ -260,22 +263,64 @@ h6 {
     margin-right: auto ;
     line-height: 22px ;
 }
+
+.hometext {
+    color: white ;
+    position: absolute ;
+    z-index: 1 ;
+    width: 100% ;
+    /*    padding-top: 300px;*/
+
+}
+@media only screen and (min-width: 1025px) {
+    .hometext {
+        padding-top: 300px ;
+        margin-bottom: 10px ;
+    }
+}
 @media only screen and (max-width: 1025px){
     #mainparagraph {
         width: 50em ;
+    }
+    .hometext {
+        padding-top: 200px ; 
     }
 }
 @media only screen and (max-width: 840px) {
     #mainparagraph {
         width: 40em ;
     }
+    .hometext {
+        padding-top: 80px ;
+    }
 }
 @media only screen and (max-width: 640px) {
     #mainparagraph {
         width: 20em ;
+        color: black ;
+        padding-top: 60px;
     }
     #mainheader {
         width: 12em ;
+    }
+    .hometext {
+        /*        background: black ;*/
+    }
+}
+@media only screen and (max-width: 580px) {
+    #mainheader {
+        margin-top: -30px ;
+    }
+    #mainparagraph {
+        padding-top: 50px ;
+    }
+}
+@media only screen and (max-width: 445px) {
+    #mainheader {
+        margin-top: -60px ;
+    }
+    #mainparagraph {
+        padding-top: 30px; 
     }
 }
 #plugbar {
@@ -298,6 +343,7 @@ p {
 .calltoactionbar {
     text-align: center ;
     position: relative ;
+    margin-top: -20px;
     /*    display: inline-block ;*/
 }
 .emailgary {
@@ -322,9 +368,17 @@ p {
     }
     .emailgary {
         margin-left: -125 ;
-        margin-top: 40px ;
+        margin-top: 55px ;
     }
 
+}
+@media only screen and (max-width: 640px) {
+    .calltoactionbar {
+        height: 400px ;
+    }
+    .emailgary {
+        margin-top: 300px ;
+    }
 }
 .emailgary:active {
     background-color: #B74232 ; 
