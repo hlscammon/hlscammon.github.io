@@ -416,7 +416,11 @@ p {
     margin-left: 915px ;
 
 }
-
+@media only screen and (max-width: 1240px){
+    .gallerybutton {
+        margin-left: 700px;
+    }
+}
 @media only screen and (max-width: 1025px) {
     .gallerybutton {
         margin-left: 60px ;
@@ -448,6 +452,11 @@ p {
 .gallerybutton2:hover {
     background-color: #6C7682 ;
 }
+@media only screen and (max-width: 1240px){
+    .gallerybutton2 {
+        margin-left: 600px ;
+    }
+}
 @media only screen and (max-width: 1025px){
     .gallerybutton2 {
         margin-left: 0px ;
@@ -466,6 +475,11 @@ p {
     position: absolute ;
     margin-top: 420px ;
     margin-left: 915px ;
+}
+@media only screen and (max-width: 1240px){
+    .gallerybutton3 {
+        margin-left: 700px ;
+    }
 }
 @media only screen and (max-width: 1025px){
     .gallerybutton3 {
@@ -605,6 +619,14 @@ footer {
     position: absolute ;
     margin-left: 815px ;
     margin-top: 50px ;
+}
+@media only screen and (max-width: 1240px){
+    .lessons {
+        margin-left: 700px ;
+    }
+    .lessons2 {
+        margin-left: 600px ;
+    }
 }
 
 .garyphotos {
