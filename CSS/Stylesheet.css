@@ -269,17 +269,26 @@ h6 {
 
 .hometext {
     color: white ;
-/*    position: absolute ;*/
+    position: absolute ;
     z-index: 1 ;
     width: 100% ;
     display: flex ;
-    justify-content: center ;
-    flex-wrap: wrap ;
-    margin-right: 50px ; 
-    padding: 0px 20px 20px 20px ;
+/*    justify-content: center ;*/
+    flex-wrap: wrap ; 
+    padding: 0px 0px 20px 20px ;
 
 }
-@media only screen and (max-width: 520px) {
+@media only screen and (min-width: 800px) {
+    .hometext {
+        padding-top: 100px ;
+    }
+}
+@media only screen and (min-width: 1050px) {
+    .hometext {
+        padding-top: 300px ;
+    }
+}
+@media only screen and (max-width: 500px) {
     #mainparagraph {
         color: black ;
     }
@@ -396,10 +405,17 @@ p {
 }
 @media only screen and (max-width: 640px) {
     .calltoactionbar {
-        height: 400px ;
+        height: 150px ;
     }
     .emailgary {
-        margin-top: 300px ;
+        margin-top: 50px ;
+    }
+}
+@media only screen and (max-width: 570px) {
+    .calltoactionbar {
+        height: 400px ;
+    }.emailgary {
+        margin-top: 250px ;
     }
 }
 .emailgary:active {
