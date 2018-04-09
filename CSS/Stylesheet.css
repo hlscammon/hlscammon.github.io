@@ -251,6 +251,7 @@ h6 {
     margin-right: auto ; 
     color: white ;
     width 100% ;
+    display: flex ;
 
     /*    grid-column: 1fr ;*/
 }
@@ -262,16 +263,28 @@ h6 {
     margin-left: auto;
     margin-right: auto ;
     line-height: 22px ;
+    display: flex ;
+    
 }
 
 .hometext {
     color: white ;
-    position: absolute ;
+/*    position: absolute ;*/
     z-index: 1 ;
     width: 100% ;
-    /*    padding-top: 300px;*/
+    display: flex ;
+    justify-content: center ;
+    flex-wrap: wrap ;
+    margin-right: 50px ; 
+    padding: 0px 20px 20px 20px ;
 
 }
+@media only screen and (max-width: 520px) {
+    #mainparagraph {
+        color: black ;
+    }
+}
+/*
 @media only screen and (min-width: 1025px) {
     .hometext {
         padding-top: 300px ;
@@ -279,6 +292,8 @@ h6 {
     }
 }
 @media only screen and (max-width: 1025px){
+*/
+/*
     #mainparagraph {
         width: 50em ;
     }
@@ -303,9 +318,13 @@ h6 {
     #mainheader {
         width: 12em ;
     }
+*/
+/*
     .hometext {
-        /*        background: black ;*/
+                background: black ;
     }
+*/
+/*
 }
 @media only screen and (max-width: 580px) {
     #mainheader {
@@ -315,6 +334,8 @@ h6 {
         padding-top: 50px ;
     }
 }
+*/
+/*
 @media only screen and (max-width: 445px) {
     #mainheader {
         margin-top: -60px ;
@@ -323,6 +344,7 @@ h6 {
         padding-top: 30px; 
     }
 }
+*/
 #plugbar {
     width: 100% ;
     margin-top: 20px ;
