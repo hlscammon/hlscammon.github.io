@@ -570,7 +570,7 @@ p {
 }
 @media only screen and (max-width: 1025px) {
     #plugdark {
-        display: none ;
+        margin-top: 10px ;
     }
     #plugbar {
         display: none ;
@@ -579,12 +579,11 @@ p {
 }
 @media only screen and (max-width: 640px){
     #plugdark {
-        display: none ;
+        display: none;
     }
     #plugbar {
         display: none ;
     }
-
 }
 footer {
     background-color: #000 ;
