@@ -264,7 +264,7 @@ h6 {
     margin-right: auto ;
     line-height: 22px ;
     display: flex ;
-    
+
 }
 
 .hometext {
@@ -273,7 +273,7 @@ h6 {
     z-index: 1 ;
     width: 100% ;
     display: flex ;
-/*    justify-content: center ;*/
+    /*    justify-content: center ;*/
     flex-wrap: wrap ; 
     padding: 0px 0px 20px 20px ;
 
@@ -287,73 +287,95 @@ h6 {
     .hometext {
         padding-top: 300px ;
     }
+    .indexbackground { 
+        background-color: black ; }
+}
+@media only screen and (max-width: 1500px) {
+    /*
+    .hometext {
+    background-color: black ; 
+}
+    */
+    .indexbackground { 
+        background-color: black ; 
+    }
+}
+@media only screen and (max-width: 400px) {
+    .hometext {
+        padding-top: 0px ;
+    }
 }
 @media only screen and (max-width: 500px) {
+    /*
     #mainparagraph {
-        color: black ;
-    }
+    color: black ;
+    */
+}
 }
 /*
 @media only screen and (min-width: 1025px) {
-    .hometext {
-        padding-top: 300px ;
-        margin-bottom: 10px ;
-    }
+.hometext {
+padding-top: 300px ;
+margin-bottom: 10px ;
+}
 }
 @media only screen and (max-width: 1025px){
 */
 /*
-    #mainparagraph {
-        width: 50em ;
-    }
-    .hometext {
-        padding-top: 200px ; 
-    }
+#mainparagraph {
+width: 50em ;
+}
+.hometext {
+padding-top: 200px ; 
+}
 }
 @media only screen and (max-width: 840px) {
-    #mainparagraph {
-        width: 40em ;
-    }
-    .hometext {
-        padding-top: 80px ;
-    }
+#mainparagraph {
+width: 40em ;
+}
+.hometext {
+padding-top: 80px ;
+}
 }
 @media only screen and (max-width: 640px) {
-    #mainparagraph {
-        width: 20em ;
-        color: black ;
-        padding-top: 60px;
-    }
-    #mainheader {
-        width: 12em ;
-    }
+#mainparagraph {
+width: 20em ;
+color: black ;
+padding-top: 60px;
+}
+#mainheader {
+width: 12em ;
+}
 */
 /*
-    .hometext {
-                background: black ;
-    }
+.hometext {
+background: black ;
+}
 */
 /*
 }
 @media only screen and (max-width: 580px) {
-    #mainheader {
-        margin-top: -30px ;
-    }
-    #mainparagraph {
-        padding-top: 50px ;
-    }
+#mainheader {
+margin-top: -30px ;
+}
+#mainparagraph {
+padding-top: 50px ;
+}
 }
 */
 /*
 @media only screen and (max-width: 445px) {
-    #mainheader {
-        margin-top: -60px ;
-    }
-    #mainparagraph {
-        padding-top: 30px; 
-    }
+#mainheader {
+margin-top: -60px ;
+}
+#mainparagraph {
+padding-top: 30px; 
+}
 }
 */
+.indexbackground { 
+    width: 100% ;
+}
 #plugbar {
     width: 100% ;
     margin-top: 20px ;
@@ -408,7 +430,7 @@ p {
         height: 150px ;
     }
     .emailgary {
-        margin-top: 50px ;
+        margin-top: 100px ;
     }
 }
 @media only screen and (max-width: 570px) {
