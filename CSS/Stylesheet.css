@@ -252,6 +252,7 @@ h6 {
     color: white ;
     width 100% ;
     display: flex ;
+    padding-right: 50px;
 
     /*    grid-column: 1fr ;*/
 }
@@ -264,6 +265,7 @@ h6 {
     margin-right: auto ;
     line-height: 22px ;
     display: flex ;
+    padding-right: 50px;
 
 }
 
@@ -437,7 +439,7 @@ p {
     .calltoactionbar {
         height: 400px ;
     }.emailgary {
-        margin-top: 250px ;
+        margin-top: 265px ;
     }
 }
 .emailgary:active {
